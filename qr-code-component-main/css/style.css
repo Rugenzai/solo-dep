@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/*root*/
+:root{
+    --ff:'outfit', 'inter', 'sans-serif';
+    --fs-body: 15px;
+    --fw-400: 400;
+    --fw-700: 700;
+
+    --clr-white: #ffffff;
+    --clr-light-gray: #d6e2f0;
+    --clr-graylish-blue: #7b879d;
+    --clr-dark-blue: #1f3251;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{display: inline-block;
+    max-width: 100%;
+}
+body{
+    font-family: var(--ff);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-400);
+    color: var(--clr-graylish-blue);
+    background: var(--clr-light-gray);
+}
+
+/*typography*/
+.title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: var(--fw-700);
+    color:var(--clr-dark-blue);
+}
+.content {
+    margin-bottom: 16px;
+}
+/*general layout*/
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 100dvh;
+}
+/*general styles*/
+.card {
+    max-width:300px;
+    margin-inline: auto;
+    background: var(--clr-white);
+    padding: 16px;
+    border-radius: 18px;
+    text-align: center;
+}
+.qr-image {
+    margin-bottom: 16px;
+    border-radius: 8px;
+
+}
